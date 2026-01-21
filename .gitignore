@@ -1,0 +1,11 @@
+# Ignore the upscayld subdirectory if it exists here
+/upscayld/
+
+# Ignore all PNG files in this folder (the specific ones you listed)
+*.png
+
+# Specifically target the "unnamed" ones with parentheses
+*unnamed(*)*.png
+
+# If you want to keep specific images, you can 'un-ignore' them like this:
+# !important_image.png
